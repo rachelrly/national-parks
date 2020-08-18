@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search for National Parks by State</title>
+</head>
+<body>
+    <h1>Search for National Parks</h1>
+    <form>
+        <div>
+        <label>Please enter the two letter state code:</label>
+        <input type="text" id="state">
+        </div>
+        <div>
+        <label>Maximum number of results:</label>
+        <input type="text" id="max-results">
+        <label type="submit" id = "submit">Search</label>
+    </div>
+    </form>
+
+    <section class="hidden" id="results">
+        <h2 class="results"></h2>
+            <ul id="results-list">
+
+            </ul>
+        
+    </section>
+</body>
+</html>
